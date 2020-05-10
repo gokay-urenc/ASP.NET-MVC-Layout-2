@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sablon</title>
+</head>
+<body>
+    <div>
+        <div style="width:300px; float:left; background-color:red;">Burası sabittir.</div>
+        <div style="300px; float:left; background-color:darkslategray;">
+            Burası sabit değildir.
+            @RenderBody();
+        </div>
+    </div>
+</body>
+</html>
